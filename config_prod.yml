@@ -1,0 +1,5 @@
+VERSION: '2026-2-13'
+MODEL_DIR: './Model/drug_pipeline.skops'
+PORT: 8003
+HOST: '0.0.0.0'
+DEBUG: False

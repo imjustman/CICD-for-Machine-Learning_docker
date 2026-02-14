@@ -1,0 +1,10 @@
+2026-02-13 22:14:38.817 | INFO     | App.app:predict:73 - {'Age': 23, 'Sex': 'F', 'BP': 'HIGH', 'Cholesterol': 'HIGH', 'Na_to_K': 25.355}
+2026-02-13 22:18:28.514 | INFO     | App.app:predict:73 - {'Age': 23, 'Sex': 'F', 'BP': 'HIGH', 'Cholesterol': 'HIGH', 'Na_to_K': 25.355}
+2026-02-13 22:20:56.212 | INFO     | App.app:predict:73 - {'Age': 23, 'Sex': 'F', 'BP': 'HIGH', 'Cholesterol': 'HIGH', 'Na_to_K': 25.355}
+2026-02-13 22:20:56.246 | INFO     | App.app:predict:76 - ['DrugY']
+2026-02-13 22:21:40.546 | INFO     | App.app:predict:73 - {'Age': 41, 'Sex': 'M', 'BP': 'LOW', 'Cholesterol': 'HIGH', 'Na_to_K': 11.037}
+2026-02-13 22:21:40.558 | INFO     | App.app:predict:76 - ['drugC']
+2026-02-13 22:22:48.778 | INFO     | App.app:predict:73 - {'Age': 41, 'Sex': 'M', 'BP': 'LOW', 'Cholesterol': 'HIGH', 'Na_to_K': 11.037}
+2026-02-13 22:22:48.796 | INFO     | App.app:predict:76 - ['drugC']
+2026-02-13 22:23:40.792 | INFO     | App.app:predict:73 - {'Age': 41, 'Sex': 'M', 'BP': 'LOW', 'Cholesterol': 'HIGH', 'Na_to_K': 11.037}
+2026-02-13 22:23:40.812 | INFO     | App.app:predict:76 - ['drugC']
