@@ -19,6 +19,8 @@ jobs:
         run: make install
       - name: Format
         run: make format
+      - name: Shuffle Data
+        run: make shuffle_data
       - name: Train
         run: make train
       - name: Evaluation
