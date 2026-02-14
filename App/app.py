@@ -85,4 +85,4 @@ async def redirect():
 
 @app.get("/health")
 async def service_health():
-    return {"ok"}
+    return {"ok."}
