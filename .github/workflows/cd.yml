@@ -21,7 +21,7 @@ jobs:
         run: docker build -t parkchihoon .
 
       - name: DockerTag
-        run: docker tag TEST ${{secrets.DOCKER_USERNAME}}/TEST:latest
+        run: docker tag parkchihoon ${{secrets.DOCKER_USERNAME}}/parkchihoon:latest
 
       - name: Push Image
         run: docker push ${{secrets.DOCKER_USERNAME}}/TEST:latest
