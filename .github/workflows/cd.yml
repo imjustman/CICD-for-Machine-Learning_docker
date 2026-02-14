@@ -18,7 +18,7 @@ jobs:
         run: echo "${{secrets.DOCKER_PASSWORD}}" | docker login -u "${{secrets.DOCKER_USERNAME}}" --password-stdin
 
       - name: DockerBuild
-        run: docker build -t TEST .
+        run: docker build -t parkchihoon .
 
       - name: DockerTag
         run: docker tag TEST ${{secrets.DOCKER_USERNAME}}/TEST:latest
